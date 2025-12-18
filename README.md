@@ -4,9 +4,9 @@
 
 # TempMailChecker Python SDK
 
-[![Latest Release](https://img.shields.io/pypi/v/tempmailchecker?style=flat-square&logo=pypi)](https://pypi.org/project/tempmailchecker/)
+[![PyPI version](https://img.shields.io/pypi/v/tempmailchecker?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/tempmailchecker/)
 [![License](https://img.shields.io/github/license/Fushey/python-disposable-email-checker?style=flat-square)](LICENSE)
-[![Python Version](https://img.shields.io/pypi/pyversions/tempmailchecker?style=flat-square&logo=python)](https://python.org)
+[![Python Version](https://img.shields.io/pypi/pyversions/tempmailchecker?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![GitHub stars](https://img.shields.io/github/stars/Fushey/python-disposable-email-checker?style=flat-square)](https://github.com/Fushey/python-disposable-email-checker/stargazers)
 
 > **Detect disposable email addresses in real-time** with the TempMailChecker API. Block fake signups, prevent spam, and protect your platform from abuse.
