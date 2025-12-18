@@ -12,6 +12,9 @@ license = {text = "MIT"}
 authors = [
     {name = "TempMailChecker", email = "support@tempmailchecker.com"}
 ]
+dependencies = [
+    "requests>=2.25.0",
+]
 keywords = [
     "email",
     "disposable",
