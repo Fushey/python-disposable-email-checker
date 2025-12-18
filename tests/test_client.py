@@ -1,5 +1,7 @@
 """
 Tests for TempMailChecker client
+
+Note: Tests that require API access will be skipped if TEMPMAILCHECKER_API_KEY is not set.
 """
 
 import pytest
