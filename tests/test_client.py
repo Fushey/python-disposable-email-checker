@@ -14,13 +14,14 @@ class TestTempMailChecker:
     def api_key(self):
         """Get API key from environment or use placeholder"""
         import os
-        return os.getenv('TEMPMAILCHECKER_API_KEY', 'test_key')
+        key = os.getenv('TEMPMAILCHECKER_API_KEY', '')
+        if not key or key.strip() == '':
+            pytest.skip('TEMPMAILCHECKER_API_KEY not set')
+        return key
     
     @pytest.fixture
     def checker(self, api_key):
         """Create TempMailChecker instance"""
-        if api_key == 'test_key':
-            pytest.skip('TEMPMAILCHECKER_API_KEY not set')
         return TempMailChecker(api_key)
     
     def test_initialization(self, api_key):
@@ -77,6 +78,8 @@ class TestTempMailChecker:
     
     def test_custom_endpoint(self, api_key):
         """Test custom endpoint"""
+        if not api_key or api_key.strip() == '':
+            pytest.skip('TEMPMAILCHECKER_API_KEY not set')
         checker = TempMailChecker(api_key, endpoint=ENDPOINT_US)
         assert checker.endpoint == ENDPOINT_US
     
