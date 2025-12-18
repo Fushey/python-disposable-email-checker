@@ -5,7 +5,7 @@
 # TempMailChecker Python SDK
 
 [![Latest Release](https://img.shields.io/pypi/v/tempmailchecker?style=flat-square&logo=pypi)](https://pypi.org/project/tempmailchecker/)
-[![License](https://img.shields.io/pypi/l/tempmailchecker?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/Fushey/python-disposable-email-checker?style=flat-square)](LICENSE)
 [![Python Version](https://img.shields.io/pypi/pyversions/tempmailchecker?style=flat-square&logo=python)](https://python.org)
 [![GitHub stars](https://img.shields.io/github/stars/Fushey/python-disposable-email-checker?style=flat-square)](https://github.com/Fushey/python-disposable-email-checker/stargazers)
 
